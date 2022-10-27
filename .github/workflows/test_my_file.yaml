@@ -2,7 +2,7 @@ name : testing_workflow
 on: [push]
 jobs:
     run-shell-command:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps: 
       - name: echo a string
         run: echo "hello world"
